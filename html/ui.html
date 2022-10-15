@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" id="html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Mitr&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <title>Scoreboard</title>
+</head>
+<body id="body">
+    <div class="container">
+        <div class="xsb-box">
+            <div class="xsb-box-container">
+                <div class="xsb-box-left">
+                    <div class="xsb-box-left-whit"></div>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/22/Red_Dead_Redemption_2_Logo.png" alt="this slowpoke moves"style="width: 18%; position: absolute; top: 30%; left: 3%;"/> <!-- โลโก้เปลี่ยนตรงนี้ -->
+                    <p class="idtext">
+                        <i class='fa fa-user-circle' style='left: 25%;font-size:2vh;color:#ff0000'></i>
+                        <span class="colortext3"> ไอดี : </span>
+                        <span class="colortext3" id="my_id">999</span>
+                    </p>
+                    <p class="playertext">
+                        <i class="fa fa-users" style="font-size:1.6vh;left: 8%;color:#ff0000"></i>
+                        <span class="colortext2"> ผู้เล่น : </span>
+                        <span id="players" class="colortext2">100</span>
+                    </p>
+                </div>
+                <div class="xsb-box-right">
+                    <div class="xsb-info">
+                        <div class="myinfo">
+                            <span class="colortext1" id="my_fullname">Scott Kub</span>
+                            <div class="job-box">
+                                <i class='fas fa-box' style='left: 8%;font-size:1.5vh;color:rgb(255, 0, 0)'></i> 
+                                <span class="colortext5"> อาชีพ : </span>
+                                <span class="colortext5" id="my_job">Unknow</span>
+                            </div>
+                            <div class="text-center">
+                                <hr style="width: 100%;"> 
+                                <p class="job-ch">
+                                    หมอ <span class="colortext" id="ems"> 20</span> 
+                                    ตำรวจ <span class="colortext" id="police"> 20</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="xsb-box-right-top">
+                    <div class="xsb-box-right-whit"></div>
+                    <div class="job-1"> ประชาชื่น <span class="colortext-job" id="churn">0</span></div>
+                    <div class="job-2"> อินทร <span class="colortext-job" id="indra">0</span></div>
+                    <div class="job-3"> บรูณพนธ์ <span class="colortext-job" id="blue">0</span></div>
+                    <div class="job-4"> กนก <span class="colortext-job" id="kanok">0</span></div>
+                </div> -->
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="jquery-3.4.1.min.js"></script>
+<script src="app.js"></script>
+</html>
